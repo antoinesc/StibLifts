@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		240A03304A95820F765F2BE8 /* Pods_StibLifts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DE18D5B9097BEB852A193A /* Pods_StibLifts.framework */; };
 		C878F7911FA1CC72009031F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878F7901FA1CC72009031F9 /* AppDelegate.swift */; };
 		C878F7931FA1CC72009031F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878F7921FA1CC72009031F9 /* ViewController.swift */; };
 		C878F7961FA1CC72009031F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C878F7941FA1CC72009031F9 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8CA84B7FDE82C48AEC3C3D7D /* Pods-StibLifts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StibLifts.release.xcconfig"; path = "Pods/Target Support Files/Pods-StibLifts/Pods-StibLifts.release.xcconfig"; sourceTree = "<group>"; };
+		B0BB8119A907B9C73923C655 /* Pods-StibLifts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StibLifts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StibLifts/Pods-StibLifts.debug.xcconfig"; sourceTree = "<group>"; };
 		C878F78D1FA1CC72009031F9 /* StibLifts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StibLifts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C878F7901FA1CC72009031F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C878F7921FA1CC72009031F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		C878F7971FA1CC72009031F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C878F79A1FA1CC72009031F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C878F79C1FA1CC72009031F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DE18D5B9097BEB852A193A /* Pods_StibLifts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StibLifts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240A03304A95820F765F2BE8 /* Pods_StibLifts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85D7E4A12A7AF5124ADE640F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0BB8119A907B9C73923C655 /* Pods-StibLifts.debug.xcconfig */,
+				8CA84B7FDE82C48AEC3C3D7D /* Pods-StibLifts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C878F7841FA1CC72009031F9 = {
 			isa = PBXGroup;
 			children = (
 				C878F78F1FA1CC72009031F9 /* StibLifts */,
 				C878F78E1FA1CC72009031F9 /* Products */,
+				85D7E4A12A7AF5124ADE640F /* Pods */,
+				F65AEA0F41E42BC170659456 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = StibLifts;
 			sourceTree = "<group>";
 		};
+		F65AEA0F41E42BC170659456 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2DE18D5B9097BEB852A193A /* Pods_StibLifts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C878F79F1FA1CC72009031F9 /* Build configuration list for PBXNativeTarget "StibLifts" */;
 			buildPhases = (
+				0B1D12240B0A494D7F82859E /* [CP] Check Pods Manifest.lock */,
 				C878F7891FA1CC72009031F9 /* Sources */,
 				C878F78A1FA1CC72009031F9 /* Frameworks */,
 				C878F78B1FA1CC72009031F9 /* Resources */,
+				3538A391026FF55753894A18 /* [CP] Embed Pods Frameworks */,
+				A05C7AB7DD1E075A00DF3763 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,68 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B1D12240B0A494D7F82859E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StibLifts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3538A391026FF55753894A18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StibLifts/Pods-StibLifts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StibLifts/Pods-StibLifts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A05C7AB7DD1E075A00DF3763 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StibLifts/Pods-StibLifts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C878F7891FA1CC72009031F9 /* Sources */ = {
@@ -272,6 +361,7 @@
 		};
 		C878F7A01FA1CC72009031F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0BB8119A907B9C73923C655 /* Pods-StibLifts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +377,7 @@
 		};
 		C878F7A11FA1CC72009031F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA84B7FDE82C48AEC3C3D7D /* Pods-StibLifts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
