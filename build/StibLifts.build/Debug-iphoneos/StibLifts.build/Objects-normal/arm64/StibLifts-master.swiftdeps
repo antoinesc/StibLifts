@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65.2 clang-900.0.37)"
+options: "330f2fae356fff598a334bb8fbf2041c"
+build_time: [1509004534, 773492000]
+inputs:
+  "/Users/michaelmoldawski/Desktop/StibLifts/StibLifts/ViewController.swift": [1509004530, 0]
+  "/Users/michaelmoldawski/Desktop/StibLifts/StibLifts/AppDelegate.swift": [1509004530, 0]
