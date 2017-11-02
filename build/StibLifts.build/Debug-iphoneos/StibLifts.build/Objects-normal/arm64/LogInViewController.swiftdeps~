@@ -1,0 +1,735 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LogInViewController"
+provides-nominal:
+- "9StibLifts19LogInViewControllerC"
+provides-member:
+- ["9StibLifts19LogInViewControllerC", ""]
+provides-dynamic-lookup:
+- "buttonClick"
+- "createAccountButton"
+- "didReceiveMemoryWarning"
+- "logInButton"
+- "loginActivityIndicator"
+- "mailTextField"
+- "myUnwindLoginForm"
+- "passwordTextField"
+- "viewDidLoad"
+depends-top-level:
+- "AppUser"
+- "AssignmentPrecedence"
+- "CLLocationManager"
+- "Error"
+- "LogInViewController"
+- !private "StringLiteralType"
+- "UIActivityIndicatorView"
+- "UIAlertAction"
+- "UIAlertController"
+- "UIButton"
+- "UIStoryboardSegue"
+- "UITextField"
+- "UIViewController"
+- "UserDefaults"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So7CALayerC", "cornerRadius"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "titleLabel"]
+- !private ["So13CAMediaTimingP", "cornerRadius"]
+- ["So17CLLocationManagerC", "init"]
+- !private ["So17CLLocationManagerC", "requestWhenInUseAuthorization"]
+- ["s7CVarArgP", "CLLocationManager"]
+- ["s7CVarArgP", "UserDefaults"]
+- !private ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "createAccountButton"]
+- !private ["s7CVarArgP", "createUser"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initAlertActions"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "locationManager"]
+- !private ["s7CVarArgP", "logIn"]
+- !private ["s7CVarArgP", "logInButton"]
+- !private ["s7CVarArgP", "moveForward"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "requestWhenInUseAuthorization"]
+- !private ["s7CVarArgP", "signOut"]
+- ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "titleLabel"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "CLLocationManager"]
+- ["s28CustomDebugStringConvertibleP", "UserDefaults"]
+- !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "createAccountButton"]
+- !private ["s28CustomDebugStringConvertibleP", "createUser"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initAlertActions"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "locationManager"]
+- !private ["s28CustomDebugStringConvertibleP", "logIn"]
+- !private ["s28CustomDebugStringConvertibleP", "logInButton"]
+- !private ["s28CustomDebugStringConvertibleP", "moveForward"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "requestWhenInUseAuthorization"]
+- !private ["s28CustomDebugStringConvertibleP", "signOut"]
+- ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "titleLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "CLLocationManager"]
+- ["s23CustomStringConvertibleP", "UserDefaults"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "createAccountButton"]
+- !private ["s23CustomStringConvertibleP", "createUser"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initAlertActions"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "locationManager"]
+- !private ["s23CustomStringConvertibleP", "logIn"]
+- !private ["s23CustomStringConvertibleP", "logInButton"]
+- !private ["s23CustomStringConvertibleP", "moveForward"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "requestWhenInUseAuthorization"]
+- !private ["s23CustomStringConvertibleP", "signOut"]
+- ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "titleLabel"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- ["s9EquatableP", "CLLocationManager"]
+- ["s9EquatableP", "UserDefaults"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "cornerRadius"]
+- !private ["s9EquatableP", "createAccountButton"]
+- !private ["s9EquatableP", "createUser"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "initAlertActions"]
+- !private ["s9EquatableP", "layer"]
+- !private ["s9EquatableP", "locationManager"]
+- !private ["s9EquatableP", "logIn"]
+- !private ["s9EquatableP", "logInButton"]
+- !private ["s9EquatableP", "moveForward"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "requestWhenInUseAuthorization"]
+- !private ["s9EquatableP", "signOut"]
+- ["s9EquatableP", "standard"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "titleLabel"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "CLLocationManager"]
+- ["s8HashableP", "UserDefaults"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "cornerRadius"]
+- !private ["s8HashableP", "createAccountButton"]
+- !private ["s8HashableP", "createUser"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "initAlertActions"]
+- !private ["s8HashableP", "layer"]
+- !private ["s8HashableP", "locationManager"]
+- !private ["s8HashableP", "logIn"]
+- !private ["s8HashableP", "logInButton"]
+- !private ["s8HashableP", "moveForward"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "requestWhenInUseAuthorization"]
+- !private ["s8HashableP", "signOut"]
+- ["s8HashableP", "standard"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "titleLabel"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- ["9StibLifts19LogInViewControllerC", "AppUser"]
+- ["9StibLifts19LogInViewControllerC", "CLLocationManager"]
+- ["9StibLifts19LogInViewControllerC", "Error"]
+- ["9StibLifts19LogInViewControllerC", "UIActivityIndicatorView"]
+- ["9StibLifts19LogInViewControllerC", "UIAlertAction"]
+- ["9StibLifts19LogInViewControllerC", "UIAlertController"]
+- ["9StibLifts19LogInViewControllerC", "UIButton"]
+- ["9StibLifts19LogInViewControllerC", "UIStoryboardSegue"]
+- ["9StibLifts19LogInViewControllerC", "UITextField"]
+- ["9StibLifts19LogInViewControllerC", "UserDefaults"]
+- ["9StibLifts19LogInViewControllerC", "alertActionNo"]
+- ["9StibLifts19LogInViewControllerC", "alertActionOk"]
+- ["9StibLifts19LogInViewControllerC", "alertActionOkSpecial"]
+- ["9StibLifts19LogInViewControllerC", "alertActionYes"]
+- ["9StibLifts19LogInViewControllerC", "alertVC"]
+- ["9StibLifts19LogInViewControllerC", "buttonClick"]
+- ["9StibLifts19LogInViewControllerC", "createAccountButton"]
+- !private ["9StibLifts19LogInViewControllerC", "createUser"]
+- ["9StibLifts19LogInViewControllerC", "defaults"]
+- ["9StibLifts19LogInViewControllerC", "deinit"]
+- ["9StibLifts19LogInViewControllerC", "didReceiveMemoryWarning"]
+- ["9StibLifts19LogInViewControllerC", "fireBaseAuthError"]
+- ["9StibLifts19LogInViewControllerC", "init"]
+- !private ["9StibLifts19LogInViewControllerC", "initAlertActions"]
+- ["9StibLifts19LogInViewControllerC", "locationManager"]
+- !private ["9StibLifts19LogInViewControllerC", "logIn"]
+- ["9StibLifts19LogInViewControllerC", "logInButton"]
+- ["9StibLifts19LogInViewControllerC", "loginActivityIndicator"]
+- ["9StibLifts19LogInViewControllerC", "mailTextField"]
+- !private ["9StibLifts19LogInViewControllerC", "moveForward"]
+- ["9StibLifts19LogInViewControllerC", "myUnwindLoginForm"]
+- ["9StibLifts19LogInViewControllerC", "passwordTextField"]
+- !private ["9StibLifts19LogInViewControllerC", "print"]
+- !private ["9StibLifts19LogInViewControllerC", "signOut"]
+- ["9StibLifts19LogInViewControllerC", "user"]
+- ["9StibLifts19LogInViewControllerC", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "CLLocationManager"]
+- ["So8NSCodingP", "UserDefaults"]
+- !private ["So8NSCodingP", "cornerRadius"]
+- !private ["So8NSCodingP", "createAccountButton"]
+- !private ["So8NSCodingP", "createUser"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "initAlertActions"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "locationManager"]
+- !private ["So8NSCodingP", "logIn"]
+- !private ["So8NSCodingP", "logInButton"]
+- !private ["So8NSCodingP", "moveForward"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "signOut"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "titleLabel"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "CLLocationManager"]
+- ["So26NSExtensionRequestHandlingP", "UserDefaults"]
+- !private ["So26NSExtensionRequestHandlingP", "createAccountButton"]
+- !private ["So26NSExtensionRequestHandlingP", "createUser"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "initAlertActions"]
+- !private ["So26NSExtensionRequestHandlingP", "locationManager"]
+- !private ["So26NSExtensionRequestHandlingP", "logIn"]
+- !private ["So26NSExtensionRequestHandlingP", "logInButton"]
+- !private ["So26NSExtensionRequestHandlingP", "moveForward"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "signOut"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "AppUser"]
+- ["So8NSObjectC", "CLLocationManager"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "UIActivityIndicatorView"]
+- ["So8NSObjectC", "UIAlertAction"]
+- ["So8NSObjectC", "UIAlertController"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "UserDefaults"]
+- ["So8NSObjectC", "alertActionNo"]
+- ["So8NSObjectC", "alertActionOk"]
+- ["So8NSObjectC", "alertActionOkSpecial"]
+- ["So8NSObjectC", "alertActionYes"]
+- ["So8NSObjectC", "alertVC"]
+- ["So8NSObjectC", "buttonClick"]
+- !private ["So8NSObjectC", "cornerRadius"]
+- ["So8NSObjectC", "createAccountButton"]
+- !private ["So8NSObjectC", "createUser"]
+- ["So8NSObjectC", "defaults"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "fireBaseAuthError"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "initAlertActions"]
+- !private ["So8NSObjectC", "layer"]
+- ["So8NSObjectC", "locationManager"]
+- !private ["So8NSObjectC", "logIn"]
+- ["So8NSObjectC", "logInButton"]
+- ["So8NSObjectC", "loginActivityIndicator"]
+- ["So8NSObjectC", "mailTextField"]
+- !private ["So8NSObjectC", "moveForward"]
+- ["So8NSObjectC", "myUnwindLoginForm"]
+- ["So8NSObjectC", "passwordTextField"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "requestWhenInUseAuthorization"]
+- !private ["So8NSObjectC", "signOut"]
+- ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "titleLabel"]
+- ["So8NSObjectC", "user"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So16NSObjectProtocolP", "CLLocationManager"]
+- ["So16NSObjectProtocolP", "UserDefaults"]
+- !private ["So16NSObjectProtocolP", "cornerRadius"]
+- !private ["So16NSObjectProtocolP", "createAccountButton"]
+- !private ["So16NSObjectProtocolP", "createUser"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "initAlertActions"]
+- !private ["So16NSObjectProtocolP", "layer"]
+- !private ["So16NSObjectProtocolP", "locationManager"]
+- !private ["So16NSObjectProtocolP", "logIn"]
+- !private ["So16NSObjectProtocolP", "logInButton"]
+- !private ["So16NSObjectProtocolP", "moveForward"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "requestWhenInUseAuthorization"]
+- !private ["So16NSObjectProtocolP", "signOut"]
+- ["So16NSObjectProtocolP", "standard"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "titleLabel"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "cornerRadius"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "layer"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "titleLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "titleLabel"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "titleLabel"]
+- ["So21UIAppearanceContainerP", "CLLocationManager"]
+- ["So21UIAppearanceContainerP", "UserDefaults"]
+- !private ["So21UIAppearanceContainerP", "createAccountButton"]
+- !private ["So21UIAppearanceContainerP", "createUser"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "initAlertActions"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "locationManager"]
+- !private ["So21UIAppearanceContainerP", "logIn"]
+- !private ["So21UIAppearanceContainerP", "logInButton"]
+- !private ["So21UIAppearanceContainerP", "moveForward"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "signOut"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "titleLabel"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So8UIButtonC", "layer"]
+- !private ["So8UIButtonC", "titleLabel"]
+- ["So18UIContentContainerP", "CLLocationManager"]
+- ["So18UIContentContainerP", "UserDefaults"]
+- !private ["So18UIContentContainerP", "createAccountButton"]
+- !private ["So18UIContentContainerP", "createUser"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "initAlertActions"]
+- !private ["So18UIContentContainerP", "locationManager"]
+- !private ["So18UIContentContainerP", "logIn"]
+- !private ["So18UIContentContainerP", "logInButton"]
+- !private ["So18UIContentContainerP", "moveForward"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "signOut"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "layer"]
+- !private ["So9UIControlC", "titleLabel"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "titleLabel"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "titleLabel"]
+- ["So18UIFocusEnvironmentP", "CLLocationManager"]
+- ["So18UIFocusEnvironmentP", "UserDefaults"]
+- !private ["So18UIFocusEnvironmentP", "createAccountButton"]
+- !private ["So18UIFocusEnvironmentP", "createUser"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "initAlertActions"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "locationManager"]
+- !private ["So18UIFocusEnvironmentP", "logIn"]
+- !private ["So18UIFocusEnvironmentP", "logInButton"]
+- !private ["So18UIFocusEnvironmentP", "moveForward"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "signOut"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "titleLabel"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "titleLabel"]
+- !private ["So7UILabelC", "text"]
+- ["So30UIPasteConfigurationSupportingP", "CLLocationManager"]
+- ["So30UIPasteConfigurationSupportingP", "UserDefaults"]
+- !private ["So30UIPasteConfigurationSupportingP", "createAccountButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "createUser"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "initAlertActions"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "locationManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "logIn"]
+- !private ["So30UIPasteConfigurationSupportingP", "logInButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "moveForward"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "signOut"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "titleLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "AppUser"]
+- ["So11UIResponderC", "CLLocationManager"]
+- ["So11UIResponderC", "Error"]
+- ["So11UIResponderC", "UIActivityIndicatorView"]
+- ["So11UIResponderC", "UIAlertAction"]
+- ["So11UIResponderC", "UIAlertController"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "UserDefaults"]
+- ["So11UIResponderC", "alertActionNo"]
+- ["So11UIResponderC", "alertActionOk"]
+- ["So11UIResponderC", "alertActionOkSpecial"]
+- ["So11UIResponderC", "alertActionYes"]
+- ["So11UIResponderC", "alertVC"]
+- ["So11UIResponderC", "buttonClick"]
+- ["So11UIResponderC", "createAccountButton"]
+- !private ["So11UIResponderC", "createUser"]
+- ["So11UIResponderC", "defaults"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "fireBaseAuthError"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "initAlertActions"]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "locationManager"]
+- !private ["So11UIResponderC", "logIn"]
+- ["So11UIResponderC", "logInButton"]
+- ["So11UIResponderC", "loginActivityIndicator"]
+- ["So11UIResponderC", "mailTextField"]
+- !private ["So11UIResponderC", "moveForward"]
+- ["So11UIResponderC", "myUnwindLoginForm"]
+- ["So11UIResponderC", "passwordTextField"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "signOut"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "titleLabel"]
+- ["So11UIResponderC", "user"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "CLLocationManager"]
+- ["So30UIResponderStandardEditActionsP", "UserDefaults"]
+- !private ["So30UIResponderStandardEditActionsP", "createAccountButton"]
+- !private ["So30UIResponderStandardEditActionsP", "createUser"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "initAlertActions"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "locationManager"]
+- !private ["So30UIResponderStandardEditActionsP", "logIn"]
+- !private ["So30UIResponderStandardEditActionsP", "logInButton"]
+- !private ["So30UIResponderStandardEditActionsP", "moveForward"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "signOut"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "titleLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "layer"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "titleLabel"]
+- ["So16UIStateRestoringP", "CLLocationManager"]
+- ["So16UIStateRestoringP", "UserDefaults"]
+- !private ["So16UIStateRestoringP", "createAccountButton"]
+- !private ["So16UIStateRestoringP", "createUser"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "initAlertActions"]
+- !private ["So16UIStateRestoringP", "locationManager"]
+- !private ["So16UIStateRestoringP", "logIn"]
+- !private ["So16UIStateRestoringP", "logInButton"]
+- !private ["So16UIStateRestoringP", "moveForward"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "signOut"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- ["So18UITraitEnvironmentP", "CLLocationManager"]
+- ["So18UITraitEnvironmentP", "UserDefaults"]
+- !private ["So18UITraitEnvironmentP", "createAccountButton"]
+- !private ["So18UITraitEnvironmentP", "createUser"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "initAlertActions"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "locationManager"]
+- !private ["So18UITraitEnvironmentP", "logIn"]
+- !private ["So18UITraitEnvironmentP", "logInButton"]
+- !private ["So18UITraitEnvironmentP", "moveForward"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "signOut"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "titleLabel"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "layer"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "titleLabel"]
+- ["So16UIViewControllerC", "AppUser"]
+- ["So16UIViewControllerC", "CLLocationManager"]
+- ["So16UIViewControllerC", "Error"]
+- ["So16UIViewControllerC", "UIActivityIndicatorView"]
+- ["So16UIViewControllerC", "UIAlertAction"]
+- ["So16UIViewControllerC", "UIAlertController"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
+- ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", "UserDefaults"]
+- ["So16UIViewControllerC", "alertActionNo"]
+- ["So16UIViewControllerC", "alertActionOk"]
+- ["So16UIViewControllerC", "alertActionOkSpecial"]
+- ["So16UIViewControllerC", "alertActionYes"]
+- ["So16UIViewControllerC", "alertVC"]
+- ["So16UIViewControllerC", "buttonClick"]
+- ["So16UIViewControllerC", "createAccountButton"]
+- !private ["So16UIViewControllerC", "createUser"]
+- ["So16UIViewControllerC", "defaults"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "fireBaseAuthError"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "initAlertActions"]
+- ["So16UIViewControllerC", "locationManager"]
+- !private ["So16UIViewControllerC", "logIn"]
+- ["So16UIViewControllerC", "logInButton"]
+- ["So16UIViewControllerC", "loginActivityIndicator"]
+- ["So16UIViewControllerC", "mailTextField"]
+- !private ["So16UIViewControllerC", "moveForward"]
+- ["So16UIViewControllerC", "myUnwindLoginForm"]
+- ["So16UIViewControllerC", "passwordTextField"]
+- !private ["So16UIViewControllerC", "print"]
+- !private ["So16UIViewControllerC", "signOut"]
+- ["So16UIViewControllerC", "user"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", ""]
+- ["So12UserDefaultsC", "standard"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "titleLabel"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UserDefaults"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createAccountButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initAlertActions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locationManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "logIn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "logInButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "moveForward"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestWhenInUseAuthorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signOut"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "titleLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So7CALayerC"
+- !private "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- "So17CLLocationManagerC"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- "9StibLifts19LogInViewControllerC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "So12UserDefaultsC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/michaelmoldawski/Desktop/StibLifts/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+interface-hash: "3ff092836dacbd6924c66a4377f759a1"

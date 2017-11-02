@@ -1,6 +1,16 @@
 version: "Apple Swift version 4.0 (swiftlang-900.0.65.2 clang-900.0.37)"
 options: "661a9b0a54ca445b91e09b89f0b7278b"
-build_time: [1509007455, 817289000]
+build_time: [1509618784, 96137000]
 inputs:
-  "/Users/michaelmoldawski/Desktop/StibLifts/StibLifts/ViewController.swift": [1509007225, 0]
-  "/Users/michaelmoldawski/Desktop/StibLifts/StibLifts/AppDelegate.swift": [1509004530, 0]
+  "/Users/michaelmoldawski/Desktop/StibLifts/StibLifts/Model/AppUser.swift": [1509028256, 0]
+  "/Users/michaelmoldawski/Desktop/StibLifts/StibLifts/LogIn/LogInViewController.swift": [1509452365, 0]
+  "/Users/michaelmoldawski/Desktop/StibLifts/StibLifts/ListStations/StationTableViewCell.swift": [1509558961, 0]
+  "/Users/michaelmoldawski/Desktop/StibLifts/StibLifts/ListStations/ListStationsViewController.swift": [1509559564, 0]
+  "/Users/michaelmoldawski/Desktop/StibLifts/StibLifts/Map/MapViewControllerExtension.swift": [1509547932, 0]
+  "/Users/michaelmoldawski/Desktop/StibLifts/StibLifts/Model/Station.swift": [1509537750, 0]
+  "/Users/michaelmoldawski/Desktop/StibLifts/StibLifts/ListStations/ListStationsViewControllerExtension.swift": [1509559879, 0]
+  "/Users/michaelmoldawski/Desktop/StibLifts/StibLifts/LogIn/LogInViewControllerExtension.swift": [1509447217, 0]
+  "/Users/michaelmoldawski/Desktop/StibLifts/StibLifts/AppDelegate.swift": [1509019767, 0]
+  "/Users/michaelmoldawski/Desktop/StibLifts/StibLifts/Model/Location.swift": [1509023732, 0]
+  "/Users/michaelmoldawski/Desktop/StibLifts/StibLifts/FireBaseManager.swift": [1509029094, 0]
+  "/Users/michaelmoldawski/Desktop/StibLifts/StibLifts/Map/MapViewController.swift": [1509546018, 0]

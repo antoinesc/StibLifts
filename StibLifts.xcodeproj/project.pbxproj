@@ -8,23 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		240A03304A95820F765F2BE8 /* Pods_StibLifts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DE18D5B9097BEB852A193A /* Pods_StibLifts.framework */; };
+		C80193EF1FA8E301005B580C /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80193EE1FA8E301005B580C /* Station.swift */; };
+		C85CA6A01FA1F50D00B9A03D /* LogInViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CA69F1FA1F50C00B9A03D /* LogInViewControllerExtension.swift */; };
+		C85CA6A41FA207F500B9A03D /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CA6A31FA207F500B9A03D /* Location.swift */; };
 		C878F7911FA1CC72009031F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878F7901FA1CC72009031F9 /* AppDelegate.swift */; };
-		C878F7931FA1CC72009031F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878F7921FA1CC72009031F9 /* ViewController.swift */; };
+		C878F7931FA1CC72009031F9 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878F7921FA1CC72009031F9 /* LogInViewController.swift */; };
 		C878F7961FA1CC72009031F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C878F7941FA1CC72009031F9 /* Main.storyboard */; };
 		C878F7981FA1CC72009031F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C878F7971FA1CC72009031F9 /* Assets.xcassets */; };
 		C878F79B1FA1CC72009031F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C878F7991FA1CC72009031F9 /* LaunchScreen.storyboard */; };
+		C87A61D21FA1E52C00B92863 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C87A61D11FA1E52B00B92863 /* GoogleService-Info.plist */; };
+		C87A61D41FA1E60100B92863 /* FireBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87A61D31FA1E60100B92863 /* FireBaseManager.swift */; };
+		C87A61D61FA1E6CE00B92863 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87A61D51FA1E6CE00B92863 /* AppUser.swift */; };
+		C8D7D8F01FA8A1CC009475C7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D7D8EF1FA8A1CC009475C7 /* MapViewController.swift */; };
+		C8D7D8F31FA8A319009475C7 /* MapViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D7D8F21FA8A319009475C7 /* MapViewControllerExtension.swift */; };
+		C8E2F0D71FAA187500956C53 /* ListStationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E2F0D61FAA187500956C53 /* ListStationsViewController.swift */; };
+		C8E2F0D91FAA188800956C53 /* ListStationsViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E2F0D81FAA188800956C53 /* ListStationsViewControllerExtension.swift */; };
+		C8E2F0DB1FAA19C000956C53 /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E2F0DA1FAA19C000956C53 /* StationTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8CA84B7FDE82C48AEC3C3D7D /* Pods-StibLifts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StibLifts.release.xcconfig"; path = "Pods/Target Support Files/Pods-StibLifts/Pods-StibLifts.release.xcconfig"; sourceTree = "<group>"; };
 		B0BB8119A907B9C73923C655 /* Pods-StibLifts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StibLifts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StibLifts/Pods-StibLifts.debug.xcconfig"; sourceTree = "<group>"; };
+		C80193EE1FA8E301005B580C /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		C85CA69F1FA1F50C00B9A03D /* LogInViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewControllerExtension.swift; sourceTree = "<group>"; };
+		C85CA6A31FA207F500B9A03D /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		C878F78D1FA1CC72009031F9 /* StibLifts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StibLifts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C878F7901FA1CC72009031F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C878F7921FA1CC72009031F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C878F7921FA1CC72009031F9 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		C878F7951FA1CC72009031F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C878F7971FA1CC72009031F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C878F79A1FA1CC72009031F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C878F79C1FA1CC72009031F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87A61D11FA1E52B00B92863 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C87A61D31FA1E60100B92863 /* FireBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseManager.swift; sourceTree = "<group>"; };
+		C87A61D51FA1E6CE00B92863 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		C8D7D8EF1FA8A1CC009475C7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C8D7D8F21FA8A319009475C7 /* MapViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewControllerExtension.swift; sourceTree = "<group>"; };
+		C8E2F0D61FAA187500956C53 /* ListStationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListStationsViewController.swift; sourceTree = "<group>"; };
+		C8E2F0D81FAA188800956C53 /* ListStationsViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListStationsViewControllerExtension.swift; sourceTree = "<group>"; };
+		C8E2F0DA1FAA19C000956C53 /* StationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
 		F2DE18D5B9097BEB852A193A /* Pods_StibLifts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StibLifts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -49,6 +71,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C85CA6A11FA1F51300B9A03D /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				C878F7921FA1CC72009031F9 /* LogInViewController.swift */,
+				C85CA69F1FA1F50C00B9A03D /* LogInViewControllerExtension.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		C85CA6A21FA207AF00B9A03D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C87A61D51FA1E6CE00B92863 /* AppUser.swift */,
+				C85CA6A31FA207F500B9A03D /* Location.swift */,
+				C80193EE1FA8E301005B580C /* Station.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C878F7841FA1CC72009031F9 = {
 			isa = PBXGroup;
 			children = (
@@ -71,13 +112,37 @@
 			isa = PBXGroup;
 			children = (
 				C878F7901FA1CC72009031F9 /* AppDelegate.swift */,
-				C878F7921FA1CC72009031F9 /* ViewController.swift */,
+				C87A61D31FA1E60100B92863 /* FireBaseManager.swift */,
+				C85CA6A21FA207AF00B9A03D /* Model */,
+				C85CA6A11FA1F51300B9A03D /* LogIn */,
+				C8D7D8F11FA8A1D6009475C7 /* Map */,
+				C8E2F0D51FAA184400956C53 /* ListStations */,
 				C878F7941FA1CC72009031F9 /* Main.storyboard */,
 				C878F7971FA1CC72009031F9 /* Assets.xcassets */,
 				C878F7991FA1CC72009031F9 /* LaunchScreen.storyboard */,
 				C878F79C1FA1CC72009031F9 /* Info.plist */,
+				C87A61D11FA1E52B00B92863 /* GoogleService-Info.plist */,
 			);
 			path = StibLifts;
+			sourceTree = "<group>";
+		};
+		C8D7D8F11FA8A1D6009475C7 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				C8D7D8EF1FA8A1CC009475C7 /* MapViewController.swift */,
+				C8D7D8F21FA8A319009475C7 /* MapViewControllerExtension.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		C8E2F0D51FAA184400956C53 /* ListStations */ = {
+			isa = PBXGroup;
+			children = (
+				C8E2F0D61FAA187500956C53 /* ListStationsViewController.swift */,
+				C8E2F0D81FAA188800956C53 /* ListStationsViewControllerExtension.swift */,
+				C8E2F0DA1FAA19C000956C53 /* StationTableViewCell.swift */,
+			);
+			path = ListStations;
 			sourceTree = "<group>";
 		};
 		F65AEA0F41E42BC170659456 /* Frameworks */ = {
@@ -151,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C878F79B1FA1CC72009031F9 /* LaunchScreen.storyboard in Resources */,
+				C87A61D21FA1E52C00B92863 /* GoogleService-Info.plist in Resources */,
 				C878F7981FA1CC72009031F9 /* Assets.xcassets in Resources */,
 				C878F7961FA1CC72009031F9 /* Main.storyboard in Resources */,
 			);
@@ -225,8 +291,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C878F7931FA1CC72009031F9 /* ViewController.swift in Sources */,
+				C87A61D61FA1E6CE00B92863 /* AppUser.swift in Sources */,
+				C878F7931FA1CC72009031F9 /* LogInViewController.swift in Sources */,
+				C8E2F0DB1FAA19C000956C53 /* StationTableViewCell.swift in Sources */,
+				C8E2F0D71FAA187500956C53 /* ListStationsViewController.swift in Sources */,
+				C8D7D8F31FA8A319009475C7 /* MapViewControllerExtension.swift in Sources */,
+				C80193EF1FA8E301005B580C /* Station.swift in Sources */,
+				C8E2F0D91FAA188800956C53 /* ListStationsViewControllerExtension.swift in Sources */,
+				C85CA6A01FA1F50D00B9A03D /* LogInViewControllerExtension.swift in Sources */,
 				C878F7911FA1CC72009031F9 /* AppDelegate.swift in Sources */,
+				C85CA6A41FA207F500B9A03D /* Location.swift in Sources */,
+				C87A61D41FA1E60100B92863 /* FireBaseManager.swift in Sources */,
+				C8D7D8F01FA8A1CC009475C7 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
