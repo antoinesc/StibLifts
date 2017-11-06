@@ -10,8 +10,12 @@ import UIKit
 
 class ListStationsViewController: UIViewController {
 
+    var stations = [Station]()
+    @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tableView.dataSource = self
+        self.tableView.delegate = self
 
         // Do any additional setup after loading the view.
     }
@@ -19,6 +23,11 @@ class ListStationsViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.stations = [Station]()
+        self.getStations()
     }
     
 

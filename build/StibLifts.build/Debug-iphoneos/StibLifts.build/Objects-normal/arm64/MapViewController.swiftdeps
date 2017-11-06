@@ -1,0 +1,925 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MapViewController"
+- "MyPointAnnotation"
+provides-nominal:
+- "9StibLifts17MapViewControllerC"
+- "9StibLifts17MyPointAnnotationC"
+provides-member:
+- ["9StibLifts17MapViewControllerC", ""]
+- ["9StibLifts17MyPointAnnotationC", ""]
+provides-dynamic-lookup:
+- "auxiliaryView"
+- "closeAuxiliaryView"
+- "didReceiveMemoryWarning"
+- "elevatorStatusAuxiliaryViewLabel"
+- "goToMaps"
+- "map"
+- "stationNameAuxiliaryViewLabel"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- "AppUser"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CLLocationManager"
+- "DatabaseReference"
+- "FireBaseManager"
+- "MKAnnotationView"
+- "MKMapView"
+- "MKPointAnnotation"
+- "MapViewController"
+- "MyPointAnnotation"
+- "Station"
+- !private "StringLiteralType"
+- "UIColor"
+- "UILabel"
+- "UIView"
+- "UIViewController"
+- !private "kCLLocationAccuracyBest"
+depends-member:
+- !private ["9StibLifts7AppUserC", "init"]
+- !private ["9StibLifts7AppUserC", "updateUserFromFirebase"]
+- !private ["9StibLifts7AppUserC", "userFireBase"]
+- ["Sa", "init"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- !private ["So17CLLocationManagerC", "delegate"]
+- !private ["So17CLLocationManagerC", "desiredAccuracy"]
+- ["So17CLLocationManagerC", "init"]
+- !private ["So17CLLocationManagerC", "startUpdatingLocation"]
+- !private ["So25CLLocationManagerDelegateP", "AppUser"]
+- ["So25CLLocationManagerDelegateP", "CLLocationManager"]
+- ["So25CLLocationManagerDelegateP", "FireBaseManager"]
+- !private ["So25CLLocationManagerDelegateP", "MKAnnotationView"]
+- ["So25CLLocationManagerDelegateP", "Station"]
+- !private ["So25CLLocationManagerDelegateP", "annotationForAuxiliaryView"]
+- !private ["So25CLLocationManagerDelegateP", "auxiliaryView"]
+- !private ["So25CLLocationManagerDelegateP", "dbRef"]
+- !private ["So25CLLocationManagerDelegateP", "getStations"]
+- !private ["So25CLLocationManagerDelegateP", "kCLLocationAccuracyBest"]
+- !private ["So25CLLocationManagerDelegateP", "locationManager"]
+- !private ["So25CLLocationManagerDelegateP", "map"]
+- !private ["So25CLLocationManagerDelegateP", "mapItem"]
+- !private ["So25CLLocationManagerDelegateP", "user"]
+- !private ["So25CLLocationManagerDelegateP", "userRefTable"]
+- !private ["So25CLLocationManagerDelegateP", "usersRefTable"]
+- !private ["s7CVarArgP", "AppUser"]
+- ["s7CVarArgP", "CLLocationManager"]
+- ["s7CVarArgP", "FireBaseManager"]
+- !private ["s7CVarArgP", "MKAnnotationView"]
+- ["s7CVarArgP", "Station"]
+- !private ["s7CVarArgP", "annotationForAuxiliaryView"]
+- !private ["s7CVarArgP", "auxiliaryView"]
+- !private ["s7CVarArgP", "child"]
+- !private ["s7CVarArgP", "currentUser"]
+- ["s7CVarArgP", "databaseRef"]
+- !private ["s7CVarArgP", "dbRef"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "desiredAccuracy"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "getStations"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "kCLLocationAccuracyBest"]
+- !private ["s7CVarArgP", "locationManager"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "mapItem"]
+- !private ["s7CVarArgP", "openInMaps"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "startUpdatingLocation"]
+- !private ["s7CVarArgP", "uid"]
+- !private ["s7CVarArgP", "user"]
+- !private ["s7CVarArgP", "userRefTable"]
+- !private ["s7CVarArgP", "usersRefTable"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewWillAppear"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AppUser"]
+- ["s28CustomDebugStringConvertibleP", "CLLocationManager"]
+- ["s28CustomDebugStringConvertibleP", "FireBaseManager"]
+- !private ["s28CustomDebugStringConvertibleP", "MKAnnotationView"]
+- ["s28CustomDebugStringConvertibleP", "Station"]
+- !private ["s28CustomDebugStringConvertibleP", "annotationForAuxiliaryView"]
+- !private ["s28CustomDebugStringConvertibleP", "auxiliaryView"]
+- !private ["s28CustomDebugStringConvertibleP", "child"]
+- !private ["s28CustomDebugStringConvertibleP", "currentUser"]
+- ["s28CustomDebugStringConvertibleP", "databaseRef"]
+- !private ["s28CustomDebugStringConvertibleP", "dbRef"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "desiredAccuracy"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "getStations"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "kCLLocationAccuracyBest"]
+- !private ["s28CustomDebugStringConvertibleP", "locationManager"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "mapItem"]
+- !private ["s28CustomDebugStringConvertibleP", "openInMaps"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "startUpdatingLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "uid"]
+- !private ["s28CustomDebugStringConvertibleP", "user"]
+- !private ["s28CustomDebugStringConvertibleP", "userRefTable"]
+- !private ["s28CustomDebugStringConvertibleP", "usersRefTable"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "AppUser"]
+- ["s23CustomStringConvertibleP", "CLLocationManager"]
+- ["s23CustomStringConvertibleP", "FireBaseManager"]
+- !private ["s23CustomStringConvertibleP", "MKAnnotationView"]
+- ["s23CustomStringConvertibleP", "Station"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "annotationForAuxiliaryView"]
+- !private ["s23CustomStringConvertibleP", "auxiliaryView"]
+- !private ["s23CustomStringConvertibleP", "child"]
+- !private ["s23CustomStringConvertibleP", "currentUser"]
+- ["s23CustomStringConvertibleP", "databaseRef"]
+- !private ["s23CustomStringConvertibleP", "dbRef"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "desiredAccuracy"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "getStations"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "kCLLocationAccuracyBest"]
+- !private ["s23CustomStringConvertibleP", "locationManager"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "mapItem"]
+- !private ["s23CustomStringConvertibleP", "openInMaps"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "startUpdatingLocation"]
+- !private ["s23CustomStringConvertibleP", "uid"]
+- !private ["s23CustomStringConvertibleP", "user"]
+- !private ["s23CustomStringConvertibleP", "userRefTable"]
+- !private ["s23CustomStringConvertibleP", "usersRefTable"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewWillAppear"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["So13DatabaseQueryC", "child"]
+- !private ["So17DatabaseReferenceC", "child"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "AppUser"]
+- ["s9EquatableP", "CLLocationManager"]
+- ["s9EquatableP", "FireBaseManager"]
+- !private ["s9EquatableP", "MKAnnotationView"]
+- ["s9EquatableP", "Station"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "annotationForAuxiliaryView"]
+- !private ["s9EquatableP", "auxiliaryView"]
+- !private ["s9EquatableP", "child"]
+- !private ["s9EquatableP", "currentUser"]
+- ["s9EquatableP", "databaseRef"]
+- !private ["s9EquatableP", "dbRef"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "desiredAccuracy"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "getStations"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isHidden"]
+- !private ["s9EquatableP", "kCLLocationAccuracyBest"]
+- !private ["s9EquatableP", "locationManager"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "mapItem"]
+- !private ["s9EquatableP", "openInMaps"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "startUpdatingLocation"]
+- !private ["s9EquatableP", "uid"]
+- !private ["s9EquatableP", "user"]
+- !private ["s9EquatableP", "userRefTable"]
+- !private ["s9EquatableP", "usersRefTable"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "viewWillAppear"]
+- ["s9EquatableP", ""]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["9StibLifts15FireBaseManagerC", "currentUser"]
+- ["9StibLifts15FireBaseManagerC", "databaseRef"]
+- !private ["9StibLifts15FireBaseManagerC", "shared"]
+- !private ["s8HashableP", "AppUser"]
+- ["s8HashableP", "CLLocationManager"]
+- ["s8HashableP", "FireBaseManager"]
+- !private ["s8HashableP", "MKAnnotationView"]
+- ["s8HashableP", "Station"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "annotationForAuxiliaryView"]
+- !private ["s8HashableP", "auxiliaryView"]
+- !private ["s8HashableP", "child"]
+- !private ["s8HashableP", "currentUser"]
+- ["s8HashableP", "databaseRef"]
+- !private ["s8HashableP", "dbRef"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "desiredAccuracy"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "getStations"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isHidden"]
+- !private ["s8HashableP", "kCLLocationAccuracyBest"]
+- !private ["s8HashableP", "locationManager"]
+- !private ["s8HashableP", "map"]
+- !private ["s8HashableP", "mapItem"]
+- !private ["s8HashableP", "openInMaps"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "startUpdatingLocation"]
+- !private ["s8HashableP", "uid"]
+- !private ["s8HashableP", "user"]
+- !private ["s8HashableP", "userRefTable"]
+- !private ["s8HashableP", "usersRefTable"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "viewWillAppear"]
+- ["s8HashableP", ""]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["So12MKAnnotationP", "Station"]
+- !private ["So12MKAnnotationP", "init"]
+- ["So12MKAnnotationP", ""]
+- !private ["So16MKAnnotationViewC", "init"]
+- !private ["So9MKMapItemC", "openInMaps"]
+- !private ["So9MKMapViewC", "delegate"]
+- !private ["So17MKMapViewDelegateP", "AppUser"]
+- ["So17MKMapViewDelegateP", "CLLocationManager"]
+- ["So17MKMapViewDelegateP", "FireBaseManager"]
+- !private ["So17MKMapViewDelegateP", "MKAnnotationView"]
+- ["So17MKMapViewDelegateP", "Station"]
+- !private ["So17MKMapViewDelegateP", "annotationForAuxiliaryView"]
+- !private ["So17MKMapViewDelegateP", "auxiliaryView"]
+- !private ["So17MKMapViewDelegateP", "dbRef"]
+- !private ["So17MKMapViewDelegateP", "getStations"]
+- !private ["So17MKMapViewDelegateP", "kCLLocationAccuracyBest"]
+- !private ["So17MKMapViewDelegateP", "locationManager"]
+- !private ["So17MKMapViewDelegateP", "map"]
+- !private ["So17MKMapViewDelegateP", "mapItem"]
+- !private ["So17MKMapViewDelegateP", "user"]
+- !private ["So17MKMapViewDelegateP", "userRefTable"]
+- !private ["So17MKMapViewDelegateP", "usersRefTable"]
+- ["So17MKPointAnnotationC", "Station"]
+- ["So17MKPointAnnotationC", "UIColor"]
+- ["So17MKPointAnnotationC", "init"]
+- ["So17MKPointAnnotationC", "pinTintColor"]
+- ["So17MKPointAnnotationC", "station"]
+- ["So17MKPointAnnotationC", ""]
+- ["So7MKShapeC", "Station"]
+- ["So7MKShapeC", "UIColor"]
+- ["So7MKShapeC", "init"]
+- ["So7MKShapeC", "pinTintColor"]
+- ["So7MKShapeC", "station"]
+- ["9StibLifts17MapViewControllerC", "AppUser"]
+- ["9StibLifts17MapViewControllerC", "Bool"]
+- ["9StibLifts17MapViewControllerC", "CLLocationManager"]
+- ["9StibLifts17MapViewControllerC", "DatabaseReference"]
+- ["9StibLifts17MapViewControllerC", "FireBaseManager"]
+- ["9StibLifts17MapViewControllerC", "MKAnnotationView"]
+- ["9StibLifts17MapViewControllerC", "MKMapView"]
+- ["9StibLifts17MapViewControllerC", "Station"]
+- ["9StibLifts17MapViewControllerC", "UILabel"]
+- ["9StibLifts17MapViewControllerC", "UIView"]
+- ["9StibLifts17MapViewControllerC", "annotationForAuxiliaryView"]
+- ["9StibLifts17MapViewControllerC", "auxiliaryView"]
+- ["9StibLifts17MapViewControllerC", "closeAuxiliaryView"]
+- ["9StibLifts17MapViewControllerC", "dbRef"]
+- ["9StibLifts17MapViewControllerC", "deinit"]
+- ["9StibLifts17MapViewControllerC", "didReceiveMemoryWarning"]
+- ["9StibLifts17MapViewControllerC", "elevatorStatusAuxiliaryViewLabel"]
+- !private ["9StibLifts17MapViewControllerC", "getStations"]
+- ["9StibLifts17MapViewControllerC", "goToMaps"]
+- ["9StibLifts17MapViewControllerC", "init"]
+- !private ["9StibLifts17MapViewControllerC", "kCLLocationAccuracyBest"]
+- ["9StibLifts17MapViewControllerC", "locationManager"]
+- ["9StibLifts17MapViewControllerC", "map"]
+- !private ["9StibLifts17MapViewControllerC", "mapItem"]
+- ["9StibLifts17MapViewControllerC", "stationNameAuxiliaryViewLabel"]
+- ["9StibLifts17MapViewControllerC", "stations"]
+- ["9StibLifts17MapViewControllerC", "user"]
+- ["9StibLifts17MapViewControllerC", "userRefTable"]
+- ["9StibLifts17MapViewControllerC", "usersRefTable"]
+- ["9StibLifts17MapViewControllerC", "viewDidLoad"]
+- ["9StibLifts17MapViewControllerC", "viewWillAppear"]
+- !private ["s10MirrorPathP", "init"]
+- ["s17MutableCollectionP", "init"]
+- ["9StibLifts17MyPointAnnotationC", "Station"]
+- ["9StibLifts17MyPointAnnotationC", "UIColor"]
+- ["9StibLifts17MyPointAnnotationC", "deinit"]
+- ["9StibLifts17MyPointAnnotationC", "init"]
+- ["9StibLifts17MyPointAnnotationC", "pinTintColor"]
+- ["9StibLifts17MyPointAnnotationC", "station"]
+- !private ["So8NSCodingP", "AppUser"]
+- ["So8NSCodingP", "CLLocationManager"]
+- ["So8NSCodingP", "FireBaseManager"]
+- !private ["So8NSCodingP", "MKAnnotationView"]
+- ["So8NSCodingP", "Station"]
+- !private ["So8NSCodingP", "annotationForAuxiliaryView"]
+- !private ["So8NSCodingP", "auxiliaryView"]
+- !private ["So8NSCodingP", "dbRef"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "getStations"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "kCLLocationAccuracyBest"]
+- !private ["So8NSCodingP", "locationManager"]
+- !private ["So8NSCodingP", "map"]
+- !private ["So8NSCodingP", "mapItem"]
+- !private ["So8NSCodingP", "openInMaps"]
+- !private ["So8NSCodingP", "user"]
+- !private ["So8NSCodingP", "userRefTable"]
+- !private ["So8NSCodingP", "usersRefTable"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "viewWillAppear"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "AppUser"]
+- ["So26NSExtensionRequestHandlingP", "CLLocationManager"]
+- ["So26NSExtensionRequestHandlingP", "FireBaseManager"]
+- !private ["So26NSExtensionRequestHandlingP", "MKAnnotationView"]
+- ["So26NSExtensionRequestHandlingP", "Station"]
+- !private ["So26NSExtensionRequestHandlingP", "annotationForAuxiliaryView"]
+- !private ["So26NSExtensionRequestHandlingP", "auxiliaryView"]
+- !private ["So26NSExtensionRequestHandlingP", "dbRef"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "getStations"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "kCLLocationAccuracyBest"]
+- !private ["So26NSExtensionRequestHandlingP", "locationManager"]
+- !private ["So26NSExtensionRequestHandlingP", "map"]
+- !private ["So26NSExtensionRequestHandlingP", "mapItem"]
+- !private ["So26NSExtensionRequestHandlingP", "user"]
+- !private ["So26NSExtensionRequestHandlingP", "userRefTable"]
+- !private ["So26NSExtensionRequestHandlingP", "usersRefTable"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "openInMaps"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "openInMaps"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "AppUser"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CLLocationManager"]
+- ["So8NSObjectC", "DatabaseReference"]
+- ["So8NSObjectC", "FireBaseManager"]
+- ["So8NSObjectC", "MKAnnotationView"]
+- ["So8NSObjectC", "MKMapView"]
+- ["So8NSObjectC", "Station"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "annotationForAuxiliaryView"]
+- ["So8NSObjectC", "auxiliaryView"]
+- !private ["So8NSObjectC", "child"]
+- ["So8NSObjectC", "closeAuxiliaryView"]
+- !private ["So8NSObjectC", "currentUser"]
+- ["So8NSObjectC", "databaseRef"]
+- ["So8NSObjectC", "dbRef"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "desiredAccuracy"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "elevatorStatusAuxiliaryViewLabel"]
+- !private ["So8NSObjectC", "getStations"]
+- ["So8NSObjectC", "goToMaps"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "kCLLocationAccuracyBest"]
+- ["So8NSObjectC", "locationManager"]
+- ["So8NSObjectC", "map"]
+- !private ["So8NSObjectC", "mapItem"]
+- !private ["So8NSObjectC", "openInMaps"]
+- ["So8NSObjectC", "pinTintColor"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "startUpdatingLocation"]
+- ["So8NSObjectC", "station"]
+- ["So8NSObjectC", "stationNameAuxiliaryViewLabel"]
+- ["So8NSObjectC", "stations"]
+- !private ["So8NSObjectC", "uid"]
+- ["So8NSObjectC", "user"]
+- ["So8NSObjectC", "userRefTable"]
+- ["So8NSObjectC", "usersRefTable"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- !private ["So16NSObjectProtocolP", "AppUser"]
+- ["So16NSObjectProtocolP", "CLLocationManager"]
+- ["So16NSObjectProtocolP", "FireBaseManager"]
+- !private ["So16NSObjectProtocolP", "MKAnnotationView"]
+- ["So16NSObjectProtocolP", "Station"]
+- !private ["So16NSObjectProtocolP", "annotationForAuxiliaryView"]
+- !private ["So16NSObjectProtocolP", "auxiliaryView"]
+- !private ["So16NSObjectProtocolP", "child"]
+- !private ["So16NSObjectProtocolP", "currentUser"]
+- ["So16NSObjectProtocolP", "databaseRef"]
+- !private ["So16NSObjectProtocolP", "dbRef"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "desiredAccuracy"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "getStations"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isHidden"]
+- !private ["So16NSObjectProtocolP", "kCLLocationAccuracyBest"]
+- !private ["So16NSObjectProtocolP", "locationManager"]
+- !private ["So16NSObjectProtocolP", "map"]
+- !private ["So16NSObjectProtocolP", "mapItem"]
+- !private ["So16NSObjectProtocolP", "openInMaps"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "startUpdatingLocation"]
+- !private ["So16NSObjectProtocolP", "uid"]
+- !private ["So16NSObjectProtocolP", "user"]
+- !private ["So16NSObjectProtocolP", "userRefTable"]
+- !private ["So16NSObjectProtocolP", "usersRefTable"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "viewWillAppear"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "openInMaps"]
+- !private ["So8NSStringC", "init"]
+- ["s22RandomAccessCollectionP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s8SequenceP", "init"]
+- ["9StibLifts7StationC", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "AppUser"]
+- ["So21UIAppearanceContainerP", "CLLocationManager"]
+- ["So21UIAppearanceContainerP", "FireBaseManager"]
+- !private ["So21UIAppearanceContainerP", "MKAnnotationView"]
+- ["So21UIAppearanceContainerP", "Station"]
+- !private ["So21UIAppearanceContainerP", "annotationForAuxiliaryView"]
+- !private ["So21UIAppearanceContainerP", "auxiliaryView"]
+- !private ["So21UIAppearanceContainerP", "dbRef"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "getStations"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "kCLLocationAccuracyBest"]
+- !private ["So21UIAppearanceContainerP", "locationManager"]
+- !private ["So21UIAppearanceContainerP", "map"]
+- !private ["So21UIAppearanceContainerP", "mapItem"]
+- !private ["So21UIAppearanceContainerP", "user"]
+- !private ["So21UIAppearanceContainerP", "userRefTable"]
+- !private ["So21UIAppearanceContainerP", "usersRefTable"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "viewWillAppear"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "AppUser"]
+- ["So18UIContentContainerP", "CLLocationManager"]
+- ["So18UIContentContainerP", "FireBaseManager"]
+- !private ["So18UIContentContainerP", "MKAnnotationView"]
+- ["So18UIContentContainerP", "Station"]
+- !private ["So18UIContentContainerP", "annotationForAuxiliaryView"]
+- !private ["So18UIContentContainerP", "auxiliaryView"]
+- !private ["So18UIContentContainerP", "dbRef"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "getStations"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "kCLLocationAccuracyBest"]
+- !private ["So18UIContentContainerP", "locationManager"]
+- !private ["So18UIContentContainerP", "map"]
+- !private ["So18UIContentContainerP", "mapItem"]
+- !private ["So18UIContentContainerP", "user"]
+- !private ["So18UIContentContainerP", "userRefTable"]
+- !private ["So18UIContentContainerP", "usersRefTable"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "viewWillAppear"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "AppUser"]
+- ["So18UIFocusEnvironmentP", "CLLocationManager"]
+- ["So18UIFocusEnvironmentP", "FireBaseManager"]
+- !private ["So18UIFocusEnvironmentP", "MKAnnotationView"]
+- ["So18UIFocusEnvironmentP", "Station"]
+- !private ["So18UIFocusEnvironmentP", "annotationForAuxiliaryView"]
+- !private ["So18UIFocusEnvironmentP", "auxiliaryView"]
+- !private ["So18UIFocusEnvironmentP", "dbRef"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "getStations"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "kCLLocationAccuracyBest"]
+- !private ["So18UIFocusEnvironmentP", "locationManager"]
+- !private ["So18UIFocusEnvironmentP", "map"]
+- !private ["So18UIFocusEnvironmentP", "mapItem"]
+- !private ["So18UIFocusEnvironmentP", "user"]
+- !private ["So18UIFocusEnvironmentP", "userRefTable"]
+- !private ["So18UIFocusEnvironmentP", "usersRefTable"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "viewWillAppear"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "AppUser"]
+- ["So30UIPasteConfigurationSupportingP", "CLLocationManager"]
+- ["So30UIPasteConfigurationSupportingP", "FireBaseManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "MKAnnotationView"]
+- ["So30UIPasteConfigurationSupportingP", "Station"]
+- !private ["So30UIPasteConfigurationSupportingP", "annotationForAuxiliaryView"]
+- !private ["So30UIPasteConfigurationSupportingP", "auxiliaryView"]
+- !private ["So30UIPasteConfigurationSupportingP", "dbRef"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "getStations"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "kCLLocationAccuracyBest"]
+- !private ["So30UIPasteConfigurationSupportingP", "locationManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "map"]
+- !private ["So30UIPasteConfigurationSupportingP", "mapItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "user"]
+- !private ["So30UIPasteConfigurationSupportingP", "userRefTable"]
+- !private ["So30UIPasteConfigurationSupportingP", "usersRefTable"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "AppUser"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "CLLocationManager"]
+- ["So11UIResponderC", "DatabaseReference"]
+- ["So11UIResponderC", "FireBaseManager"]
+- ["So11UIResponderC", "MKAnnotationView"]
+- ["So11UIResponderC", "MKMapView"]
+- ["So11UIResponderC", "Station"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", "annotationForAuxiliaryView"]
+- ["So11UIResponderC", "auxiliaryView"]
+- ["So11UIResponderC", "closeAuxiliaryView"]
+- ["So11UIResponderC", "dbRef"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "elevatorStatusAuxiliaryViewLabel"]
+- !private ["So11UIResponderC", "getStations"]
+- ["So11UIResponderC", "goToMaps"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isHidden"]
+- !private ["So11UIResponderC", "kCLLocationAccuracyBest"]
+- ["So11UIResponderC", "locationManager"]
+- ["So11UIResponderC", "map"]
+- !private ["So11UIResponderC", "mapItem"]
+- ["So11UIResponderC", "stationNameAuxiliaryViewLabel"]
+- ["So11UIResponderC", "stations"]
+- ["So11UIResponderC", "user"]
+- ["So11UIResponderC", "userRefTable"]
+- ["So11UIResponderC", "usersRefTable"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "AppUser"]
+- ["So30UIResponderStandardEditActionsP", "CLLocationManager"]
+- ["So30UIResponderStandardEditActionsP", "FireBaseManager"]
+- !private ["So30UIResponderStandardEditActionsP", "MKAnnotationView"]
+- ["So30UIResponderStandardEditActionsP", "Station"]
+- !private ["So30UIResponderStandardEditActionsP", "annotationForAuxiliaryView"]
+- !private ["So30UIResponderStandardEditActionsP", "auxiliaryView"]
+- !private ["So30UIResponderStandardEditActionsP", "dbRef"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "getStations"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "kCLLocationAccuracyBest"]
+- !private ["So30UIResponderStandardEditActionsP", "locationManager"]
+- !private ["So30UIResponderStandardEditActionsP", "map"]
+- !private ["So30UIResponderStandardEditActionsP", "mapItem"]
+- !private ["So30UIResponderStandardEditActionsP", "user"]
+- !private ["So30UIResponderStandardEditActionsP", "userRefTable"]
+- !private ["So30UIResponderStandardEditActionsP", "usersRefTable"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "AppUser"]
+- ["So16UIStateRestoringP", "CLLocationManager"]
+- ["So16UIStateRestoringP", "FireBaseManager"]
+- !private ["So16UIStateRestoringP", "MKAnnotationView"]
+- ["So16UIStateRestoringP", "Station"]
+- !private ["So16UIStateRestoringP", "annotationForAuxiliaryView"]
+- !private ["So16UIStateRestoringP", "auxiliaryView"]
+- !private ["So16UIStateRestoringP", "dbRef"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "getStations"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "kCLLocationAccuracyBest"]
+- !private ["So16UIStateRestoringP", "locationManager"]
+- !private ["So16UIStateRestoringP", "map"]
+- !private ["So16UIStateRestoringP", "mapItem"]
+- !private ["So16UIStateRestoringP", "user"]
+- !private ["So16UIStateRestoringP", "userRefTable"]
+- !private ["So16UIStateRestoringP", "usersRefTable"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "viewWillAppear"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "AppUser"]
+- ["So18UITraitEnvironmentP", "CLLocationManager"]
+- ["So18UITraitEnvironmentP", "FireBaseManager"]
+- !private ["So18UITraitEnvironmentP", "MKAnnotationView"]
+- ["So18UITraitEnvironmentP", "Station"]
+- !private ["So18UITraitEnvironmentP", "annotationForAuxiliaryView"]
+- !private ["So18UITraitEnvironmentP", "auxiliaryView"]
+- !private ["So18UITraitEnvironmentP", "dbRef"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "getStations"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "kCLLocationAccuracyBest"]
+- !private ["So18UITraitEnvironmentP", "locationManager"]
+- !private ["So18UITraitEnvironmentP", "map"]
+- !private ["So18UITraitEnvironmentP", "mapItem"]
+- !private ["So18UITraitEnvironmentP", "user"]
+- !private ["So18UITraitEnvironmentP", "userRefTable"]
+- !private ["So18UITraitEnvironmentP", "usersRefTable"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "viewWillAppear"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "delegate"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isHidden"]
+- ["So16UIViewControllerC", "AppUser"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "CLLocationManager"]
+- ["So16UIViewControllerC", "DatabaseReference"]
+- ["So16UIViewControllerC", "FireBaseManager"]
+- ["So16UIViewControllerC", "MKAnnotationView"]
+- ["So16UIViewControllerC", "MKMapView"]
+- ["So16UIViewControllerC", "Station"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UIView"]
+- ["So16UIViewControllerC", "annotationForAuxiliaryView"]
+- ["So16UIViewControllerC", "auxiliaryView"]
+- ["So16UIViewControllerC", "closeAuxiliaryView"]
+- ["So16UIViewControllerC", "dbRef"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "elevatorStatusAuxiliaryViewLabel"]
+- !private ["So16UIViewControllerC", "getStations"]
+- ["So16UIViewControllerC", "goToMaps"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "kCLLocationAccuracyBest"]
+- ["So16UIViewControllerC", "locationManager"]
+- ["So16UIViewControllerC", "map"]
+- !private ["So16UIViewControllerC", "mapItem"]
+- ["So16UIViewControllerC", "stationNameAuxiliaryViewLabel"]
+- ["So16UIViewControllerC", "stations"]
+- ["So16UIViewControllerC", "user"]
+- ["So16UIViewControllerC", "userRefTable"]
+- ["So16UIViewControllerC", "usersRefTable"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- ["So16UIViewControllerC", ""]
+- !private ["So4UserC", "uid"]
+- !private ["So8UserInfoP", "uid"]
+- ["s14_ArrayProtocolP", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AppUser"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "FireBaseManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MKAnnotationView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Station"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "annotationForAuxiliaryView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "auxiliaryView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "child"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentUser"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "databaseRef"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dbRef"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "desiredAccuracy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getStations"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCLLocationAccuracyBest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locationManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mapItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "openInMaps"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startUpdatingLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "user"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userRefTable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "usersRefTable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillAppear"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["s17_MutableIndexableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s22_RandomAccessIndexableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "9StibLifts7AppUserC"
+- "Sa"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "So17CLLocationManagerC"
+- "So25CLLocationManagerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "So13DatabaseQueryC"
+- !private "So17DatabaseReferenceC"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "9StibLifts15FireBaseManagerC"
+- "s8HashableP"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- "So12MKAnnotationP"
+- !private "So16MKAnnotationViewC"
+- !private "So9MKMapItemC"
+- !private "So9MKMapViewC"
+- "So17MKMapViewDelegateP"
+- "So17MKPointAnnotationC"
+- "So7MKShapeC"
+- "9StibLifts17MapViewControllerC"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "9StibLifts17MyPointAnnotationC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "9StibLifts7StationC"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So4UserC"
+- !private "So8UserInfoP"
+- "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/michaelmoldawski/Desktop/StibLifts/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+interface-hash: "b61e169f0081b746ad6b1f3e53cb83a0"

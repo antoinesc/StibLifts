@@ -1,0 +1,401 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ListStationsViewController"
+provides-nominal:
+- "9StibLifts26ListStationsViewControllerC"
+provides-member:
+- ["9StibLifts26ListStationsViewControllerC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "tableView"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "ListStationsViewController"
+- "Station"
+- "UITableView"
+- "UIViewController"
+depends-member:
+- ["Sa", "init"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CALayerDelegateP", "dataSource"]
+- ["s7CVarArgP", "Station"]
+- !private ["s7CVarArgP", "dataSource"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "getStations"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "stations"]
+- !private ["s7CVarArgP", "tableView"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewWillAppear"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- ["s28CustomDebugStringConvertibleP", "Station"]
+- !private ["s28CustomDebugStringConvertibleP", "dataSource"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "getStations"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "stations"]
+- !private ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "Station"]
+- !private ["s23CustomStringConvertibleP", "dataSource"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "getStations"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "stations"]
+- !private ["s23CustomStringConvertibleP", "tableView"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewWillAppear"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s9DecodableP", "init"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "Station"]
+- !private ["s9EquatableP", "dataSource"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "getStations"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "stations"]
+- !private ["s9EquatableP", "tableView"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "viewWillAppear"]
+- ["s9EquatableP", ""]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s8HashableP", "Station"]
+- !private ["s8HashableP", "dataSource"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "getStations"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "stations"]
+- !private ["s8HashableP", "tableView"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "viewWillAppear"]
+- ["s8HashableP", ""]
+- ["9StibLifts26ListStationsViewControllerC", "Bool"]
+- ["9StibLifts26ListStationsViewControllerC", "Station"]
+- ["9StibLifts26ListStationsViewControllerC", "UITableView"]
+- ["9StibLifts26ListStationsViewControllerC", "deinit"]
+- ["9StibLifts26ListStationsViewControllerC", "didReceiveMemoryWarning"]
+- !private ["9StibLifts26ListStationsViewControllerC", "getStations"]
+- ["9StibLifts26ListStationsViewControllerC", "init"]
+- ["9StibLifts26ListStationsViewControllerC", "stations"]
+- ["9StibLifts26ListStationsViewControllerC", "tableView"]
+- ["9StibLifts26ListStationsViewControllerC", "viewDidLoad"]
+- ["9StibLifts26ListStationsViewControllerC", "viewWillAppear"]
+- ["s17MutableCollectionP", "init"]
+- ["So8NSCodingP", "Station"]
+- !private ["So8NSCodingP", "dataSource"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "getStations"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "stations"]
+- !private ["So8NSCodingP", "tableView"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "viewWillAppear"]
+- ["So8NSCodingP", ""]
+- ["So26NSExtensionRequestHandlingP", "Station"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "getStations"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "stations"]
+- !private ["So26NSExtensionRequestHandlingP", "tableView"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Station"]
+- ["So8NSObjectC", "UITableView"]
+- !private ["So8NSObjectC", "dataSource"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "getStations"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "stations"]
+- ["So8NSObjectC", "tableView"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- ["So16NSObjectProtocolP", "Station"]
+- !private ["So16NSObjectProtocolP", "dataSource"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "getStations"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "stations"]
+- !private ["So16NSObjectProtocolP", "tableView"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "viewWillAppear"]
+- ["So16NSObjectProtocolP", ""]
+- ["s22RandomAccessCollectionP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s8SequenceP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "dataSource"]
+- !private ["So12UIAppearanceP", "dataSource"]
+- ["So21UIAppearanceContainerP", "Station"]
+- !private ["So21UIAppearanceContainerP", "dataSource"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "getStations"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "stations"]
+- !private ["So21UIAppearanceContainerP", "tableView"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "viewWillAppear"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So18UIContentContainerP", "Station"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "getStations"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "stations"]
+- !private ["So18UIContentContainerP", "tableView"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "viewWillAppear"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "dataSource"]
+- !private ["So23UIDataSourceTranslatingP", "dataSource"]
+- !private ["So13UIDynamicItemP", "dataSource"]
+- ["So18UIFocusEnvironmentP", "Station"]
+- !private ["So18UIFocusEnvironmentP", "dataSource"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "getStations"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "stations"]
+- !private ["So18UIFocusEnvironmentP", "tableView"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "viewWillAppear"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "dataSource"]
+- ["So30UIPasteConfigurationSupportingP", "Station"]
+- !private ["So30UIPasteConfigurationSupportingP", "dataSource"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "getStations"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "stations"]
+- !private ["So30UIPasteConfigurationSupportingP", "tableView"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "Station"]
+- ["So11UIResponderC", "UITableView"]
+- !private ["So11UIResponderC", "dataSource"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- !private ["So11UIResponderC", "getStations"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "stations"]
+- ["So11UIResponderC", "tableView"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- ["So30UIResponderStandardEditActionsP", "Station"]
+- !private ["So30UIResponderStandardEditActionsP", "dataSource"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "getStations"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "stations"]
+- !private ["So30UIResponderStandardEditActionsP", "tableView"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So12UIScrollViewC", "dataSource"]
+- ["So20UIScrollViewDelegateP", "Station"]
+- !private ["So20UIScrollViewDelegateP", "getStations"]
+- !private ["So20UIScrollViewDelegateP", "stations"]
+- !private ["So20UIScrollViewDelegateP", "tableView"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dataSource"]
+- ["So16UIStateRestoringP", "Station"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "getStations"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "stations"]
+- !private ["So16UIStateRestoringP", "tableView"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "viewWillAppear"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So11UITableViewC", "dataSource"]
+- ["So21UITableViewDataSourceP", "Station"]
+- !private ["So21UITableViewDataSourceP", "getStations"]
+- !private ["So21UITableViewDataSourceP", "stations"]
+- !private ["So21UITableViewDataSourceP", "tableView"]
+- ["So19UITableViewDelegateP", "Station"]
+- !private ["So19UITableViewDelegateP", "getStations"]
+- !private ["So19UITableViewDelegateP", "stations"]
+- !private ["So19UITableViewDelegateP", "tableView"]
+- ["So18UITraitEnvironmentP", "Station"]
+- !private ["So18UITraitEnvironmentP", "dataSource"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "getStations"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "stations"]
+- !private ["So18UITraitEnvironmentP", "tableView"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "viewWillAppear"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "dataSource"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "Station"]
+- ["So16UIViewControllerC", "UITableView"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- !private ["So16UIViewControllerC", "getStations"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "stations"]
+- ["So16UIViewControllerC", "tableView"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- ["So16UIViewControllerC", ""]
+- ["s14_ArrayProtocolP", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dataSource"]
+- ["s24_DestructorSafeContainerP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Station"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getStations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillAppear"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["s17_MutableIndexableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s22_RandomAccessIndexableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- "s8HashableP"
+- "9StibLifts26ListStationsViewControllerC"
+- "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So11UITableViewC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/michaelmoldawski/Desktop/StibLifts/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/michaelmoldawski/Desktop/StibLifts/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+interface-hash: "7e720c1a088d9b74958e042471ba1b8c"
